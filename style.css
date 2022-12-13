@@ -37,6 +37,20 @@
       background-size: 100vw 100vh;
       
   }
+
+  .tft{
+    background-image: url(Images//tft.jpg);
+    background-repeat: no-repeat;
+    background-size:  190vh;
+  
+  }    
+  .pano{
+    background-image: url(Images//pano.jfif);
+    background-repeat: no-repeat;
+    background-size:  190%;
+  
+  }  
+
   h1{
 
       text-align: center;
@@ -51,15 +65,35 @@
   .BIntro{
       text-align: center;
       border: solid;
-      margin-left: 250pt;
-      margin-right: 250pt;
+      margin-top: 44pt;
+      margin-left: 200pt;
+      margin-right: 200pt;
       font-size: 20pt;
+      padding: 5pt;
       color:black;
-      background: rgba(205, 205, 190, .6);
+      background: rgba(205, 205, 190, .7);
   }
   a{
       text-decoration: none;
-      color: white;
+      color: blue;
   }
+
+  fieldset{
+    background-color: darkturquoise;
+    border-width: 5pt;
+    border-style: solid;
+    font-size: 15pt;
+    
+}
+.leftAlign{
+  text-align: left;
+}
+legend{
+    text-align: left;
+    text-decoration: underline;
+    background-color: rgba(125, 205, 190, .7);
+    border-style: solid;
+    border-color: black;
+}
 
   
