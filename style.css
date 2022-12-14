@@ -1,3 +1,9 @@
+
+label { display: table-cell; }
+input { display: table-cell; width: 60%;}
+
+
+
 .navbar {
     background-color: #333;
     overflow: hidden;
@@ -33,20 +39,21 @@
 
   body{
       background-image: url(Images//hero\ image.png);
+      background-position: center;
       background-repeat: no-repeat;
-      background-size: 100vw 100vh;
+      background-size: cover;
+      background-attachment: fixed;
       
+
   }
 
   .tft{
     background-image: url(Images//tft.jpg);
-    background-repeat: no-repeat;
     background-size:  190vh;
   
   }    
   .pano{
     background-image: url(Images//pano.jfif);
-    background-repeat: no-repeat;
     background-size:  190%;
   
   }  
@@ -57,10 +64,13 @@
       scale: 150%;
       border: double;
       border-color: white;
-      background: rgba(0, 0, 0, .9);
+      background: rgba(15, 15, 15, 0.9);
       color: white;
       padding: 11pt;
       
+  }
+  img{
+    width: 50vw;
   }
   .BIntro{
       text-align: center;
@@ -78,13 +88,7 @@
       color: blue;
   }
 
-  fieldset{
-    background-color: darkturquoise;
-    border-width: 5pt;
-    border-style: solid;
-    font-size: 15pt;
-    
-}
+
 .leftAlign{
   text-align: left;
 }
@@ -94,6 +98,8 @@ legend{
     background-color: rgba(125, 205, 190, .7);
     border-style: solid;
     border-color: black;
+    
 }
+
 
   
